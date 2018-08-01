@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Realizar adición desde una cuenta de ahorros a un fondo de inversi�n" skipped="0" tests="1" time="35.02" timestamp="2018-07-27 04:12:20"><testcase name="Adicion a fondo"><failure message="&#10;Expected: is &quot;000&quot;&#10;     but: was &quot;   &quot;" type="java.lang.AssertionError">
+Expected: is "000"
+     but: was "   "</failure><system-err>
+Expected: is "000"
+     but: was "   "&#13;
+co.com.bancolombia.certificacion.vulcanofiduciaria.interations.IngresarTrama.performAs(IngresarTrama.java:54)&#13;
+co.com.bancolombia.certificacion.vulcanofiduciaria.tasks.CargarTrama.performAs(CargarTrama.java:21)&#13;
+co.com.bancolombia.certificacion.vulcanofiduciaria.stepdefinitions.AdicionAFondoStepDefinitions.ingresaLosDatosNecesarios(AdicionAFondoStepDefinitions.java:40)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)&#13;
+</system-err></testcase></testsuite>
